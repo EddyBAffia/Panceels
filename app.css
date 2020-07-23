@@ -1,0 +1,54 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.5rem;
+}
+
+.b {
+    color: rgb(93, 93, 216);
+}
+
+
+
+h1 {
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: left;
+}
+
+section {
+    background-color: rgb(172, 165, 216);
+}
+
+h5 {
+    text-align: left;
+}
+
+.btn-primary {
+    background-color: rgb(93, 93, 216);
+}
+
+
+.fa {
+    color: rgb(93, 93, 216);
+}
+
+.btn-outline-primary {
+    border-color: rgb(93, 93, 216);
+    color: rgb(93, 93, 216);
+}
+
+a.nav-link {
+    font-weight: 500;
+}
+
+.navbar-toggler {
+    justify-content: end;
+}
