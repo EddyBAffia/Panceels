@@ -2,7 +2,7 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -13,8 +13,6 @@ body {
 .b {
     color: rgb(93, 93, 216);
 }
-
-
 
 h1 {
     text-transform: capitalize;
@@ -35,7 +33,6 @@ h5 {
     background-color: rgb(93, 93, 216);
 }
 
-
 .fa {
     color: rgb(93, 93, 216);
 }
@@ -51,4 +48,9 @@ a.nav-link {
 
 .navbar-toggler {
     justify-content: end;
+}
+
+.hero {
+    height: calc(100vh - 63px);
+    /* setting the height to calculate 100% view port minus the height of the navbar so it always fills the screen */
 }
