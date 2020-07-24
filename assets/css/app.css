@@ -51,6 +51,7 @@ a.nav-link {
 }
 
 .hero {
-    height: calc(100vh - 63px);
+    min-height: calc(100vh - 63px);
+    height: auto;
     /* setting the height to calculate 100% view port minus the height of the navbar so it always fills the screen */
 }
